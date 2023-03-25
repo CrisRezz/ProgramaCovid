@@ -51,11 +51,11 @@
 </div>
 <script src="mobile-navbar.js"></script>
     </main>
-
+    <script src="datahora.js"></script>
 <footer class = "rodapé"> 
 <p class =" rodapé-footer" > @Copy right Cris Rezz</p>
 <a class =" rodapé-footer" href="https://github.com/CrisRezz" >Meu github!</a>
-<a class =" rodapé-footer"  href= "ultimo_acesso.php">ultimo acesso</a>
+<p>Último acesso ao Pais Canada em: <span id="data-hora"></span></p>
 </footer>
 
 

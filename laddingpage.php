@@ -45,31 +45,24 @@
     <section class ="conteudo-secundario">
 <h3 class ="conteudo-secundario-titulo"><strong>  Proteja a si mesmo e a sua familia, tome os principais cuidados:</strong></h3>
 <p class = "conteudo-secundario-paragrafo">•Lave as mãos frequentemente</p>
-<p class = "conteudo-secundario-paragrafo">•Use mascaras</p>
-<p class = "conteudo-secundario-paragrafo">•Limpe e desinfete superficies que são muito tocadas</p>
-<p class = "conteudo-secundario-paragrafo">•Cuide da sua saude</p>
+<p class = "conteudo-secundario-paragrafo">•Use máscara em locais publicos lotados, como ônibus, metro e lojas.</p>
+<p class = "conteudo-secundario-paragrafo">•Limpe e desinfete superficies que são muito tocadas como bancadas e pisos.</p>
+<p class = "conteudo-secundario-paragrafo">•Cuide da sua saúde, pratique esportes e coma alimentos saudavéis!</p>
 <p class = "conteudo-secundario-paragrafo">•Vacine-se!</p>
-    </section>
- </main>
-
-
-
-
+   
     <script src="mobile-navbar.js"></script>
 
- 
+
+</section>
+ </main>
+
 <footer class = "rodapé"> 
+
+    <script src="datahora.js"></script>
     <p class =" rodapé-footer" > @Copy right Cris Rezz</p>
     <a class =" rodapé-footer" href="https://github.com/CrisRezz" >Meu github!</a>
-    <a class =" rodapé-footer"  href= "ultimo_acesso.php">ultimo acesso</a>
-  
+    <p>Último acesso em: <span id="data-hora"></span></p>
   </footer>
-
-
   </body>
 </html>
   
-  
-    <!-- <p> © <?php echo date("Y"); ?> - Seu Site - Todos os direitos reservados - <?php echo date("d/m/Y H:i:s"); ?></p> -->
-
-
