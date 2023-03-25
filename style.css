@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Raleway:wght@100&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none ;
+  }
+  body {
+    font-size: 100%;
+    background: linear-gradient(90deg, rgb(45, 193, 178) 0%, rgba(37,166,182,1) 35%, rgba(0,212,255,1) 100%);
+  }
+  
+  .cabeçalho {
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     padding: 24px;
+     
+  }
+  .cabeçalho-imagem{
+    height: 72px ;
+   
+  }
+  .cabeçalho-menu{
+    display:flex;
+    gap: 32px;
+  }
+
+  .cabeçalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color:  ivory;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  .conteudo{
+    margin-bottom: 48px;
+    border-top: 0.8px solid rgb(132, 254, 155);
+  
+  }
+  .conteudo-principal{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+
+  }
+.conteudo-principal-escrito{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  color: white;
+
+}
+.conteudo-principal-escrito-titulo{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: rgb(255, 255, 255);
+
+}
+.conteudo-principal-escrito-subtitulo{
+  font-family: 'Delius', cursive;
+  font-weight: 400;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+.conteudo-principal-escrito-botao{
+  margin-right: 10px;
+  background-color: rgb(220, 237, 255);
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgb(2, 2, 46);
+  border-radius: 40px;
+  font-family: 'Delius', cursive;
+  font-weight: 400;
+  font-size: 22px;
+  color: rgb(3, 21, 43);
+
+}
+.conteudo-principal-escrito-botao:hover{
+background-color: rgb(4, 119, 151);
+}
+
+.conteudo-secundario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 65pix;
+  
+ 
+
+}
+
+.conteudo-secundario-titulo{
+  
+  border-top: o.4px solid rgb(132, 254, 155); 
+  padding-top: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: rgb(0, 10, 41);
+
+}
+.conteudo-secundario-paragrafo{
+  font-family: 'Delius', cursive;
+  font-weight: 300;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+}
+.rodapé{
+  padding: 32px;
+  border-top: 0.4px solid  rgb(132, 254, 155);
+  
+}
+.rodapé-footer{
+  height: 22px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+
