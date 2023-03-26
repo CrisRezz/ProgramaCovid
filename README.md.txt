@@ -7,9 +7,10 @@ exemplo : localhost/caminhodoarquivo.php
 por favor coloque o caminho da laddingpage.
 
 tambem funciona com xampp, para linux é o lamp.
-
+ 
 
 Não tinha nenhum conhecimento em php,javascript e css,e sabia bem pouco de html,
 conhecia apenas alguns comandos,
  Minha linguagem de estudos era em java, então eu fiz o melhor que pude
 nesses poucos dias para aprender o que fosse nescessário :D
+Meus meios de pesquisa foram : google, youtube e chat gpt.
